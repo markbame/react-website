@@ -1,0 +1,85 @@
+.price {
+  margin-bottom: 10px;
+}
+.itembuybutton {
+  background:#ff2800;
+  border:#b72937;
+  color: #fff;
+}
+
+.itembuybutton:hover {
+  background:#ff2800;
+  color: #f7f4f4;
+}
+
+.whitebutton {
+  border: 1px solid #ddd;
+  margin-right: 2px;
+  color: #222222;
+}
+
+.whitebutton:hover {
+  color: #ff2800;
+}
+
+.box {
+  width: 100%;
+  height: 500px;
+  background: black;
+}
+
+.chatlikebutton {
+  text-shadow: none!important;
+  width: 50%;
+}
+.button100 {
+  width: 100%;
+  display: block;
+}
+.doublebutton {
+  margin-top: 10px;
+}
+.iteminformation {
+  width:100%;
+  padding: 10px;
+  background: #fff;
+  border:1px solid #ddd;
+  border-radius: 5px;
+  overflow: auto;
+}
+.sellerdescription {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.iteminformation>h3 {
+  margin:0;
+  padding:0;
+}
+.iteminformation>h5 {
+  margin-top: 10px;
+}
+.iteminfo {
+  margin-left: 5px;
+}
+.iteminfowidth {
+  width:20px;
+}
+.itemsimage {
+  height: 500px;
+  float: left;
+}
+.carousel-holder {
+  background: #fff;
+  border:1px solid #ddd;
+  border-radius: 5px;
+}
+
+.buybutton {
+    color: #fff;
+    background-color: #2f8bcc;
+    border-color: #266fa3;
+    padding: .6em 1em;
+    text-shadow: none!important;
+    display: block;
+    width: 100%;
+}

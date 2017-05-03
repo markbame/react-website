@@ -1,0 +1,187 @@
+$font-stack: ProximaNova,Helvetica Neue,Helvetica,\\30D2\30E9\30AE\30CE\89D2\30B4 Pro W3,Hiragino Kaku Gothic Pro,\\30E1\30A4\30EA\30AA,Meiryo,"\FF2D\FF33 \FF30\30B4\30B7\30C3\30AF",arial,sans-serif!important;
+$color: #DC143C;
+$color-hover: #FF0000;
+$constant-padding: 5px;
+
+$footer-color-title: #b3b3b3;
+$footer-color-subtitle: gray;
+$subfontface: "Milkshake";
+
+@font-face {
+	font-family: "Milkshake";
+	src: url("fonts/Milkshake.otf"),
+		   url("fonts/Milkshake.ttf");
+}
+
+input {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: $font-stack;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 100%;
+  float:left;
+}
+* {
+  padding:0;
+  margin:0;
+}
+.width100percent {
+	width:100%;
+	float:left;
+}
+.width50percent {
+	width:50%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.logoname {
+  font-family: Milkshake;
+}
+.thumbnail {
+	border: 1px solid #ccc;
+	margin-bottom: 0;
+}
+.carousel-holder {
+	padding:3px;
+}
+
+.linethrough {
+	text-decoration: line-through;
+}
+.color {
+	color:$color
+}
+.lightcolor {
+	color:#ff2800;
+}
+.white {
+	color:#fff;
+}
+.center {
+	text-align: center;
+}
+.align-right {
+	text-align: right;
+}
+.grayedout {
+	color: orange;
+}
+.graycolor {
+	color: gray
+}
+.darkgraycolor {
+	color: #a91f03
+}
+.cursor {
+	cursor:pointer;
+}
+.cap-first {
+	text-transform:capitalize;
+}
+.bold {
+	font-weight: bold;
+}
+.normal {
+	font-weight: normal;
+}
+.padding-left-5px {
+	padding-left: 5px;
+}
+.padding-left-15px {
+	padding-left: 15px;
+}
+.margintop5px {
+	margin-top: 5px;
+	float: left;
+}
+.control-label {
+	font-weight: normal;
+	padding-left: 15px;
+	font-size: 5px;
+}
+.form-control {
+	font-weight: normal;
+	font-size: 5px;
+}
+.marginbottom5px {
+	margin-bottom: 5px;
+	float: left;
+}
+.badge {
+	background: $color;
+  padding:5px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.justify {
+	text-align: justify;
+}
+.help-block {
+	font-size: 15px;
+}
+.col-md-10,.col-md-2,.col-md-4,.col-md-6,.col-sm-2,.col-md-3,.col-sm-4, .col-sm-6, .col-xs-12,.col-md-12,
+.col-md-8, .col-sm-8, .hidden-xs {
+	padding:3px;
+	margin: 0;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.carousel {
+	border: 0;
+}
+.font-size-15px {
+	font-size: 15px;
+}
+.galleryselectall {
+	 height: 36px;
+	 display: inline-flex; /* or inline-flex */
+	 text-align: center
+}
+.galleryselectimages {
+	  padding: 2px;
+		color: #666
+}
+.gallerybox {
+		display: block;
+		min-height: 100px;
+		width: 100%;
+		border: 1px solid #ddd;
+		overflow: auto
+}
+.form-group {
+	width: 100%;
+}
+
+.search-button {
+		position: absolute;
+    top: 50%;
+    right: 25px;
+    margin-top: -10px;
+		border:0
+}
+
+@import "header";
+@import "search";
+@import "items";
+@import "carousel";
+@import "home";
+@import "footer";
+@import "dropzone-base";
+@import "drop-zone";

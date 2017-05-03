@@ -1,0 +1,50 @@
+.home {
+    margin:0 auto;
+}
+
+.itemtitle {
+  text-overflow: ellipsis;
+  width:100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.leftnavigation {
+  float:left;
+  width: 100%;
+  height:545px;
+  background: #fff;
+  margin:3px;
+  margin-left: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.rightnavigation>img {
+  float:left;
+  width: 100%;
+  height:243px;
+  background: #fff;
+  margin-left:-9px;
+  margin-top: 3px;
+}
+
+.itemlist {
+  float:left;
+  width:800px;
+  height:auto;
+}
+.home {
+  width:100%;
+}
+@media only screen and (max-width: 763px) {
+
+}
+@media only screen and (min-width: 764px) and (max-width: 1023px){
+
+}
+@media only screen and (min-width: 1024px){
+  .home {
+    width:1200px;
+  }
+}
