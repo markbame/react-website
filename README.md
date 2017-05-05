@@ -1,7 +1,7 @@
 # React-Redux-Website
 
 1. React / Redux Based Website 
-2. Nodejs SSL server
+2. Nodejs SSL cluster server
 3. No SQL Mongodb
 4. Webpack bundled
 5. ReactBootrap / Grid
